@@ -1,0 +1,25 @@
+
+.anchor{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.anchor:hover{
+  color: rgb(223, 247, 228) !important;
+  text-shadow: black 1px 5px 7px;
+  animation: popup 1s;
+}
+
+@keyframes popup {
+  0% {
+    margin-right: 0px;
+  }
+  30% {
+    margin-right: -5px;
+  }
+  90% {
+    margin-right: 5px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
